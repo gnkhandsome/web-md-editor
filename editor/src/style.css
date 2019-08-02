@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen (max-width: 1024px) {
+  body {
+    width: 2000px;
+  }
+}
+
+.v-note-wrapper {
+  height: 800px;
+}
+
+.v-note-op {
+  position: absolute;
+  bottom: 0;
+}
+
+.v-note-wrapper .v-note-panel .v-note-edit.divarea-wrapper .content-input-wrapper {
+  padding: 0 !important;
+}
+
+.auto-textarea-input {
+  padding: 8px 20px !important;
+}
